@@ -1,0 +1,9 @@
+type: DuctBridge
+health: 60
+speed: 0.25
+requirements: [
+  sand/16
+]
+category: distribution
+research: channel-router
+researchCostMultiplier: 0.1
