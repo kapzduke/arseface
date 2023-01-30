@@ -1,0 +1,12 @@
+type: WallCrafter
+health: 80
+size: 2
+squareSprite: false
+requirements: [
+  sand/35
+]
+drillTime: 160
+attribute: sand
+category: production
+research: core-memory
+alwaysUnlocked: true
