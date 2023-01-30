@@ -1,0 +1,7 @@
+type: BeamNode
+health: 80
+conductivePower: true
+squareSprite: false
+//laser: "electrode-beam"
+//laserEnd: "electrode-beam-end"
+category: power

@@ -1,0 +1,9 @@
+type: BeamNode
+health: 400
+size: 3
+range: 16
+conductivePower: true
+squareSprite: false
+//laser: "electrode-beam"
+//laserEnd: "electrode-beam-end"
+category: power
