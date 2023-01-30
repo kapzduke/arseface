@@ -6,9 +6,6 @@ requirements: [
   sand/40
 ]
 consumes: {
-  liquid: {
-    liquid: sandur
-    amount: 0.15
-  }
+  power: 0.2
 }
 category: distribution
