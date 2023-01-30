@@ -8,6 +8,7 @@ category: effect
 unitType: evoke
 unitCapModifier: 7
 thrusterLength: 15
+squareSprite: false
 requirements: [
   sand/1000
 ]
