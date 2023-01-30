@@ -1,0 +1,20 @@
+//get a better name
+Type: CoreBlock
+scaledHealth: 350
+armor: 5
+itemCapacity: 1200
+size: 3
+category: effect
+unitType: evoke
+unitCapModifier: 7
+thrusterLength: 15
+requirements: [
+  sand/1000
+]
+research: {
+    root: true
+    name: luyyerly
+    requiresUnlock: false
+    planet: luyyerly
+}
+alwaysUnlocked: true
