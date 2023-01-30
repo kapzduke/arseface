@@ -1,0 +1,68 @@
+{
+    generator: AsteroidGenerator
+    parent: sun
+    localizedName: "Luyyerly"
+    iconColor: 5E68D6
+    hasAtmosphere: true
+    updateLighting: false
+    atmosphereRadIn: 0.05
+    atmosphereRadOut: 0.15
+    atmosphereColor: 5160FF
+    orbitRadius: 8
+    drawOrbit: true
+    accessible: true
+    alwaysUnlocked: true
+    defaultCore: "core-memory"
+    sectorSeed: 1984
+    startSector: 13
+    sectorSize: 2
+    clearSectorOnLose: true
+    allowSectorInvasion: false
+    radius: 0.4
+    hiddenItems: [
+        "copper",
+      //"lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+      //"silicon",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+    ]
+    mesh: {
+        type: "NoiseMesh",  //NoiseMesh NoiseMesh
+        divisions: 3,       //3         3
+        radius: 0.5,        //0.12      0.8
+        planet: "aeyama",   //2         aeyama
+        color1: 4C8A4E,     //ff7a38    158400
+        color2: 77536E,     //ff7a38    131316
+        octaves: 2,         //1         4
+        persistence: 1,     //0.01      1
+        scale: 1.1,         //0.01      1.1
+        mag: 2,           //1         5
+        coct: 4,            //1         4
+        cper: 1.4,          //1         1.4
+        cscl: 0.3,          //1         0.3
+        cthresh: 0.2,       //1         0.2
+        seed: 1984
+    }
+}
+//iconColor: 5E68D6
+//hasAtmosphere: true
+//atmosphereColor: 434FD8
+//atmosphereRadIn: 0.1
+//atmosphereRadOut: 0.3
+//updateLighting: false
+//  color1: 4C8A4E
+//  color2: 77536E
