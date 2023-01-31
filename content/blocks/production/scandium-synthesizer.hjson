@@ -1,0 +1,30 @@
+type: GenericCrafter
+health: 1440
+size: 3
+craftTime: 15
+liquidCapacity: 25
+requirements: [
+  sand/325
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawWeave
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+consumes: {
+  liquid: {
+    liquid: sandur
+    amount: 0.85
+  }          
+}
+outputItem: scandium/2
