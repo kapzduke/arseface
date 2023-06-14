@@ -1,6 +1,7 @@
-name: ""
-displayName: ""
-author: ""
-description: ""
-version: 0.0
-minGameVersion: 104
+name: arseface
+displayName: JSON Planet Test
+author: kapzduke
+subtitle: welcome to my humble butter
+descriptions: i will very likely abandon this less than halfway through delevopmemt
+version:1
+minGameVersion: 144
