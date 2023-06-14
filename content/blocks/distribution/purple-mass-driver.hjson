@@ -1,14 +1,14 @@
 type: MassDriver
 health: 100
 range: 80
+outlineColor: 190839
 knockback: 2
 requirements: [
   sand/40
+  blast-compound/10
 ]
 consumes: {
-  liquid: {
-    liquid: sandur
-    amount: 0.15
-  }
+  power: 0.2
 }
+research: channel-bridge
 category: distribution
