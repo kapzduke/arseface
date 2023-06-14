@@ -1,0 +1,23 @@
+type: UnitFactory
+size: 3
+health: 250
+configurable: false
+requirements: [
+  sand/50
+]
+plans: [
+  {
+    unit: avernus
+    time: 750
+    requirements: [
+    ]
+  }
+]
+consumes: {
+  liquid: {
+    liquid: sandur
+    amount: 0.25
+  }
+}
+category: units
+research: core-memory
