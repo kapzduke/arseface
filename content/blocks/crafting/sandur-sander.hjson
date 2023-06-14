@@ -40,3 +40,5 @@ drawer: {
 outputLiquid: sandur/0.25
 craftTime: 10
 liquidOutputDirections: [0]
+research: dune-duster
+category: crafting
