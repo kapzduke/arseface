@@ -1,0 +1,42 @@
+type: GenericCrafter
+squareSprite: false
+health: 360
+size: 3
+requirements: [
+  sand/100
+]
+craftTime: 10
+rotate: true
+invertFlip: true
+liquidCapacity: 30
+itemCapacity: 15
+consumes: {
+  items: {
+    items: [
+      sand/2
+    ]
+  }
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: sandur
+      padding: 2
+    } 
+    {
+      type: DrawLiquidOutputs
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+outputLiquid: sandur/0.25
+craftTime: 10
+liquidOutputDirections: [0]
