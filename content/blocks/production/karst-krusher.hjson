@@ -1,0 +1,12 @@
+type: WallCrafter
+health: 240
+size: 3
+requirements: [
+  sand/75
+  scandium/20
+  blast-compound/10
+]
+drillTime: 75
+attribute: sand
+category: production
+research: dune-duster
