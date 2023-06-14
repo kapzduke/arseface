@@ -1,0 +1,25 @@
+generator: AsteroidGenerator
+parent: sun
+localizedName: "Luyyerly"
+iconColor: 305AAD
+hasAtmosphere: true
+updateLighting: true
+atmosphereRadIn: 0.18
+atmosphereRadOut: 0.3
+atmosphereColor: 305AAD
+orbitRadius: 8
+orbitTime: 694200
+drawOrbit: true
+accessible: true
+alwaysUnlocked: true
+defaultCore: //"core-memory"
+sectorSeed: 1984
+startSector: 13
+sectorSize: 2
+defaultEnv: 129
+clearSectorOnLose: true
+allowSectorInvasion: false
+radius: 0.575
+itemWhitelist: [sand; scandium; blast-compound; ryttrium; thorium]
+mesh: {type: "NoiseMesh", divisions: 4, radius: 0.5, planet: luyyerly, color1: 25354C, color2: 2C2F40, octaves: 1.5, persistence: 1, scale: 1.5, mag: 1.5, coct: 4, cper: 2, cscl: 0.3, cthresh: 0.2, seed: 1984}
+cloudMesh: {type: HexSkyMesh, planet: luyyerly, color: 7DA0E0, seed: 42, speed: 0.16, radius: 0.1, divisions: 4, thresh: 0.69, persistence: 0.5}
