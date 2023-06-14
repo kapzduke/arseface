@@ -1,0 +1,25 @@
+type: Reconstructor
+size: 3
+health: 250
+constructTime: 250
+configurable: false
+requirements: [
+  sand/150
+  scandium/75
+]
+upgrades: [
+  [avernus, avernus]
+]
+consumes: {
+  liquid: {
+    liquid: sandur
+    amount: 0.25
+  }
+  items: {
+    items: [
+      scandium/40
+    ]
+  }
+}
+category: units
+research: ground-arranger
