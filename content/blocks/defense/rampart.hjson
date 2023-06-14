@@ -1,0 +1,7 @@
+type: Wall
+size: 2
+health: 1300
+requirements: [
+  sand/24
+]
+category: defense
