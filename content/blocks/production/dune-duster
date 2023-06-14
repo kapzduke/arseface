@@ -1,0 +1,10 @@
+type: WallCrafter
+health: 80
+size: 2
+requirements: [
+  sand/35
+]
+drillTime: 160
+attribute: sand
+category: production
+research: core-1
