@@ -1,0 +1,9 @@
+temperature: 0.55
+viscosity: 0.15
+coolant: false
+heatCapacity: 1.69
+boilPoint: 3.0
+lightColor: FFFFD9
+color: FFFFD9
+barColor: FBE8B5
+research: sand
