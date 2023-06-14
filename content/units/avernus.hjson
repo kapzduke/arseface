@@ -1,0 +1,26 @@
+type: mech
+health: 200
+speed: 0.5
+hitSize: 10
+itemCapacity: 10
+outlineColor: 190839
+mechLegColor: 2F0C54
+ammo: sand
+weapons: [
+  {
+    name: avernus-weapon
+    reload: 40
+    shootX: -6
+    x: 0
+    layerOffset: -0.01
+    bullet: { 
+      damage: 30
+      speed: 2.75
+      lifetime: 45
+      frontColor: FF795E
+      trailColor: C85C51
+      trailLength: 3
+    }
+  }
+]
+//research: ground-arranger
