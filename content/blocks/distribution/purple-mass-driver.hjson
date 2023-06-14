@@ -1,0 +1,14 @@
+type: MassDriver
+health: 100
+range: 80
+knockback: 2
+requirements: [
+  sand/40
+]
+consumes: {
+  liquid: {
+    liquid: sandur
+    amount: 0.15
+  }
+}
+category: distribution

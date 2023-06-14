@@ -1,0 +1,9 @@
+type: DuctRouter
+health: 60
+speed: 0.25
+requirements: [
+  sand/4
+]
+category: distribution
+research: purple-channel
+researchCostMultiplier: 0.1
