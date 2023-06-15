@@ -4,7 +4,7 @@ localizedName: "Luyyerly"
 iconColor: 305AAD
 hasAtmosphere: true
 updateLighting: true
-atmosphereRadIn: 0.18
+atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 atmosphereColor: 305AAD
 orbitRadius: 8
@@ -46,8 +46,8 @@ mesh: {
   color2: 2C2F40, 
   octaves: 1.5, 
   persistence: 1, 
-  scale: 1.5, 
-  mag: 1.5, 
+  scale: 1.75, 
+  mag: 1.25, 
   coct: 4, 
   cper: 2, 
   cscl: 0.3, 
