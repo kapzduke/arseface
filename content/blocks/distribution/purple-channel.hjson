@@ -4,5 +4,5 @@ speed: 4
 armored: true
 requirements: [sand/1]
 category: distribution
-research: core-1
+research: core-styx
 researchCostMultiplier: 0.1
