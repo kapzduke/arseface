@@ -1,0 +1,36 @@
+type: ItemTurret
+health: 400
+requirements: [
+  sand/40
+  scandium/8
+]
+reload: 20
+rotateSpeed: 5
+targetGround: true
+targetAir: true
+recoil: 2
+AmmoPerShot: 1
+shootSound: shootAlt
+shootY: 3
+heatColor: a488eb
+outlineColor: 190839
+ammoTypes: {
+  scandium: {
+    damage: 20
+    speed: 4
+    pierceCap: 3
+    height: 15
+    width: 10
+    lifetime: 32
+    frontColor: F2C761
+    trailColor: F2C761
+    trailLength: 5
+  }
+}
+shoot: {
+  type: ShootAlternate
+  barrels: 2
+  spread: 4
+}
+category: turret
+research: core-styx
