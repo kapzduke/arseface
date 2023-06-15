@@ -28,12 +28,12 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: sandur
       padding: 2
-    } 
-    {
-      type: DrawLiquidOutputs
     }
     {
       type: DrawDefault
+    } 
+    {
+      type: DrawLiquidOutputs
     }
   ]
 }
