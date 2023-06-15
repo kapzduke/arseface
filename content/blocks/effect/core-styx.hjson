@@ -4,7 +4,7 @@ armor: 5
 itemCapacity: 1200
 size: 3
 category: effect
-unitType: evoke  //eenie
+unitType: evoke
 unitCapModifier: 7
 thrusterLength: 15
 requirements: [
