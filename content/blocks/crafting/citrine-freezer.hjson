@@ -1,5 +1,5 @@
 type: GenericCrafter
-health: 1440
+scaledHealth: 160
 size: 3
 craftTime: 15
 liquidCapacity: 25
@@ -24,9 +24,9 @@ drawer: {
 consumes: {
   liquid: {
     liquid: sandur
-    amount: 0.85
+    amount: 0.8333333333333334
   }          
 }
-outputItem: scandium/2
+outputItem: citrine/2
 research: sandur-sander
 category: crafting
