@@ -3,6 +3,6 @@ size: 2
 health: 1480
 armor: 4
 requirements: [
-  scandium/24
+  citrine/24
 ]
 category: defense
