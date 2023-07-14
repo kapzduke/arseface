@@ -2,7 +2,7 @@ type: ItemTurret
 health: 400
 requirements: [
   sand/40
-  scandium/8
+  citrine/8
 ]
 reload: 20
 rotateSpeed: 5
@@ -15,7 +15,7 @@ shootY: 3
 heatColor: a488eb
 outlineColor: 190839
 ammoTypes: {
-  scandium: {
+  citrine: {
     damage: 20
     speed: 4
     pierceCap: 3
